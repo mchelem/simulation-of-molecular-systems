@@ -1,4 +1,10 @@
 # Byte-compiled / optimized / DLL files
+#
+# pDynamo
+pDynamo-1.9.0/
+environment_bash.com
+environment_cshell.com
+
 __pycache__/
 *.py[cod]
 
