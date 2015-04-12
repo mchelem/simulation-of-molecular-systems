@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-source environment_bash.com
+source pDynamo-1.9.0/environment_bash.com
 ipython notebook
