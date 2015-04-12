@@ -17,9 +17,10 @@ from pBabel import SMILES_FromSystem
 
 from rdkit import Chem
 from rdkit.Chem.Draw import IPythonConsole
-from rdkit.Chem import Draw
 
 def display_molecule(molecule):
-    molecule.BondsFromCoordinates3()
     smiles_molecule = SMILES_FromSystem(molecule, log=None)
-    return Chem.MolFromSmiles(smiles_molecule)
+    return Chem.MolFromSmiles(smiles_molecule.replace('%', ''))
+
+#print water.connectivity.bonds.ToMapping()
+#print water.atoms.FormulaString()
