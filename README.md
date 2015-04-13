@@ -10,4 +10,4 @@ All the examples use the [pDynamo](https://sites.google.com/site/pdynamomodeling
 * [Example 2](http://nbviewer.ipython.org/github/mchelem/simulation-of-molecular-systems/blob/master/example2.ipynb)
 
 ## Exercises
-* [Exercise 2](https://github.com/mchelem/simulation-of-molecular-systems/blob/master/exercise2.ipynb)
+* [Exercise 2](http://nbviewer.ipython.org/github/mchelem/simulation-of-molecular-systems/blob/master/exercise2.ipynb)
