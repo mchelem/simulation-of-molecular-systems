@@ -26,6 +26,10 @@ from rdkit.Chem.Draw import IPythonConsole
 
 
 def display_molecule(molecule):
+    # HACK: pDynamo is incorrectly adding implicit hydrogens as aromatic
+    for atom in molecule.atoms:
+        if atom.atomicNumber == 1:
+            atom.isAromatic = False
     smiles_molecule = SMILES_FromSystem(molecule, log=None)
     return Chem.MolFromSmiles(smiles_molecule.replace('%', ''))
 
